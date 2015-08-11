@@ -1,0 +1,754 @@
+@CHARSET "ISO-8859-1";
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+	{
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title],dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input,select {
+	vertical-align: middle;
+}
+
+body {
+	background: #D1E7E8;
+	text-align: center;
+	font-size: 75%;
+	line-height: 166%;
+	font-family: "Trebuchet MS" Verdana, Arial, Helvetica, sans-serif;
+	color: #595A5A;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+form {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+a:link,a:visited,a:hover,a:active {
+	color: #FC3132;
+	text-decoration: underline;
+}
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+
+#header {
+	background-color: #B2D8D9;
+	display: block;
+	height: 80px;
+	background-image: url(../Images/header_background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 20px 0;
+}
+
+#content-container {
+	background-color: #F0F7F8;
+	display: block;
+	border-top: 4px solid #DFDFDF;
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	min-height:375px;
+}
+
+#content {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content-left {
+	width: 420px;
+	float: left;
+	padding-right: 30px;
+	text-align: left;
+}
+
+#content-fullwidth {
+	width: 900px;
+	float: left;
+	text-align: left;
+}
+
+#content-right {
+	width: 420px;
+	float: left;
+	padding-left: 30px;
+	text-align: left;
+	margin-top:9px;
+	
+}
+
+#content-left-sub {
+	/* width: 195px; */
+	float: left;
+	padding-right: 14px;
+	text-align: left;
+}
+
+#content-right-sub {
+	/* width: 195px; */
+	float: left;
+	padding-left: 14px;
+	text-align: left;
+	
+}
+
+#footer {
+	border-top: 4px solid #B2D8D9;
+	float: left;
+	display: block;
+	width: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #418486;
+	font-size: 80%;
+	padding: 15px 0;
+}
+
+#gallery {
+	width: 412px;
+	height: 300px;
+	background-color: #B2D8D9;
+	border: 4px solid #B2D8D9;
+	margin: 0;
+	padding: 0;
+}
+
+#pricesmap {
+	width: 860px;
+	background-color: #FFF;
+	border: 4px solid #B2D8D9;
+	margin: 0;
+	padding: 20px;
+}
+
+#map {
+	width: 408px;
+	height: 248px;
+	background-color: #fff;
+	background-image: url(../Images/map_loadingAnimation.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+	border: 2px solid #FFF;
+}
+
+#map-border {
+	border: 4px solid #B2D8D9;
+	margin: 0;
+}
+
+#welcome-photos {
+	border: 4px solid #B2D8D9;
+	background-color: #FFF;
+	height: 124px;
+	voice-family: inherit;
+	width: 411px;
+	margin: 0;
+	padding: 0;
+}
+
+#brochure-photos {
+	border: 4px solid #B2D8D9;
+	background-color: #FFF;
+	height: 124px;
+	voice-family: inherit;
+	width: 412px;
+	margin: 0;
+	padding: 0;
+}
+
+#property-photos {
+	border: 4px solid #B2D8D9;
+	background-color: #FFF;
+	height: 124px;
+	voice-family: inherit;
+	width: 412px;
+	margin: -5px 0 15px;
+	padding: 0;
+}
+
+#flash {
+	height: 123px;
+}
+
+#input-fullname {
+	border: 0;
+	width: 94%;
+	vertical-align: middle;
+	background: #D1E7E8;
+	font-family: "Trebuchet MS" Verdana, Arial, Helvetica, sans-serif;
+	color: #4F9698;
+	margin: 0;
+	padding: 1px 0 0 6px;
+}
+
+#input-email {
+	border: 0;
+	width: 123px;
+	vertical-align: middle;
+	background: #D1E7E8;
+	font-family: "Trebuchet MS" Verdana, Arial, Helvetica, sans-serif;
+	color: #4F9698;
+	margin: 0;
+	padding: 1px 6px 0;
+}
+
+#go {
+	border-left: 1px solid #84B9BA;
+	background: #D1E7E8;
+	width: 57px;
+	height: 24px;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation-container {
+	background-color: #F4F4F4;
+	border-top: 4px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	width: 100%;
+	height: 56px;
+	display: block;
+	background-image: url(../Images/navigation_background.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+#navigation {
+	width: 923px;
+	height: 56px;
+	display: block;
+	background-image: url(../Images/navigation.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#navigation ul {
+	border: none;
+	list-style-type: none;
+	clear: left;
+	height: 56px;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li {
+	display: block;
+	float: left;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li a {
+	display: block;
+	height: 56px;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li strong {
+	display: none;
+}
+
+#navigation a:focus,#navigation a:active,H1 a:focus {
+	outline: none
+}
+
+li#navigation-welcome a {
+	width: 105px;
+}
+
+li#navigation-about a {
+	width: 185px;
+}
+
+li#navigation-properties a {
+	width: 141px;
+}
+
+li#navigation-pricing {
+	width: 179px;
+}
+
+li#navigation-brochure a {
+	width: 192px;
+}
+
+li#navigation-contact a {
+	width: 121px;
+}
+
+li#navigation-welcome a:hover {
+	background: transparent url(../Images/navigation_on.jpg) 0 0 no-repeat;
+}
+
+li#navigation-about a:hover {
+	background: transparent url(../Images/navigation_on.jpg) -105px 0 no-repeat;
+}
+
+li#navigation-properties a:hover {
+	background: transparent url(../Images/navigation_on.jpg) -290px 0 no-repeat;
+}
+
+li#navigation-pricing a:hover {
+	background: transparent url(../Images/navigation_on.jpg) -431px 0 no-repeat;
+}
+
+li#navigation-brochure a:hover {
+	background: transparent url(../Images/navigation_on.jpg) -610px 0 no-repeat;
+}
+
+li#navigation-contact a:hover {
+	background: transparent url(../Images/navigation_on.jpg) -802px 0 no-repeat;
+}
+
+#footer a:link,#footer a:visited,#footer a:hover,#footer a:active {
+	color: #418486;
+	text-decoration: underline;
+	outline: none;
+}
+
+#footer ul li {
+	float: left;
+	display: block;
+	border: none;
+	list-style-type: none;
+	background-color: #00F;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 a {
+	text-indent: -9999px;
+	display: block;
+	width: 465px;
+	height: 85px;
+	background-color: transparent;
+	background-attachment: scroll;
+	background-x-position: 0;
+	background-y-position: 0;
+}
+
+h2 {
+	font-size: 120%;
+	color: #444;
+	line-height: 30px;
+	display: inline;
+	letter-spacing: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+#content-left-sub p {
+	margin: 0 0 5px;
+	padding: 0;
+}
+
+#welcome-photos ul li .no-border-right,#property-photos ul li .no-border-right,#brochure-photos ul li .no-border-right
+	{
+	border-right: none;
+}
+
+#welcome-photos ul li .no-border-left,#property-photos ul li .no-border-left,#brochure-photos ul li .no-border-left
+	{
+	border-left: none;
+}
+
+#E-Brochure {
+	margin: 20px 0;
+}
+
+#form {
+	color: #4F9698;
+	border: 0;
+	line-height: 100%;
+	margin: -10px 0 0;
+	padding: 0;
+}
+
+#form ul {
+	border: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#form ul li {
+	display: block;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#popup {
+	background-color: #FFF;
+	text-align: left;
+	margin-left: 20px;
+}
+
+#popup img {
+	display: block;
+	margin: -10px 0 10px;
+}
+
+#welcome-photos img,#property-photos img,#brochure-photos img {
+	border: 2px solid #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#welcome-photos ul,#property-photos ul,#brochure-photos ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#welcome-photos ul li,#property-photos ul li,#brochure-photos ul li {
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#footer p,#content-right-sub p {
+	margin: 0;
+	padding: 0;
+}
+
+#content-left-sub h2,#content-right-sub h2 {
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+#vat-friendly {
+	padding: 10px 0px 0px 0px;
+}
+
+#more {
+	display: none;
+}
+
+.sub-text {
+	font-size: 80%;
+	line-height: 160%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #595A5A;
+	text-align:justify;
+}
+
+.error-text {
+	font-size: 80%;
+	line-height: 160%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: red;
+	margin: 0;
+	padding: 0;
+}
+
+.thumbnails {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.border-me {
+	float: left;
+	border: 4px solid #B2D8D9;
+	background-color: #fff;
+	margin: 0 10px 0 0;
+	padding: 2px;
+}
+
+.pad-top {
+	margin-top: 5px;
+}
+
+.brochure-submit {
+	margin-left: 90px;
+	margin-top: 4px;
+	vertical-align: bottom;
+}
+
+.input-txt {
+	font-size: 100%;
+	font-family: "Trebuchet MS" Verdana, Arial, Helvetica, sans-serif;
+	color: #4F9698;
+	background-color: #D1E7E8;
+	border: 1px solid #A8CDCF;
+	width: 98%;
+	margin: 4px 0;
+	padding: 3px 0 3px 3px;
+}
+
+.input-mailinglist-fullname {
+	width: 190px;
+}
+
+.input-mailinglist-email {
+	width: 100px;
+	display: inline;
+	border-right: 0;
+	height: 28px;
+	padding: 0;
+}
+
+.button-mailinglist {
+	width: 60px;
+	border: 1px solid #84B9BA;
+	height: 28px;
+	background-color: #C1E0E1;
+	margin: 0;
+	padding: 0;
+}
+
+.input-border {
+	border: 1px solid #A8CDCF;
+	background-color: #D1E7E8;
+	height: 24px;
+	margin: 4px 0;
+	padding: 0;
+}
+
+.input-border-error {
+	border: 1px solid red;
+	background-color: #D1E7E8;
+	height: 24px;
+	margin: 4px 0;
+	padding: 0;
+}
+
+.stripe-dark {
+	background-color: #F7FBFB;
+	height: 20px;
+	border: 1px solid #B2D8D9;
+	border-right: none;
+	border-left: none;
+	padding: 3px 0px;
+	width: 140px;
+}
+
+.stripe-light {
+	background-color: #FFF;
+	padding: 3px 0px;
+	width: 200px;
+}
+
+.red-txt {
+	color: #FF0000;
+}
+
+.orange-txt {
+	color: #FF9900;
+}
+
+.titleText{
+	font-family:Lucida Grande;
+	font-size:36px;
+	color:#ffffff;
+	height:38px;
+	line-height:38px;
+}
+nav {
+	background: -webkit-gradient(linear, center top, center bottom, from(#fff), to(#ccc));
+	background-image: linear-gradient(#fff, #ccc);
+	border-radius: 6px;
+	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+	padding: 0 10px;
+	position: relative;
+	height: 56px;
+    line-height: 56px;
+}
+
+.menu li {
+	float: left;
+	position: relative;
+}
+
+.menu li a {
+	color: #444;
+	display: block;
+	font-family:calibri;
+	font-size: 20px;
+	height:25px;
+	line-height: 25px;
+	padding: 6px 12px;
+	margin: 8px 8px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: -webkit-gradient(linear, center top, center bottom, from(#ededed), to(#fff));
+	background-image: linear-gradient(#ededed, #fff);
+	border-radius: 12px;
+	box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
+
+/* Dropdown styles */
+
+.menu ul {
+	position: absolute;
+	left: -9999px;
+	list-style: none;
+	opacity: 0;
+	transition: opacity 1s ease;
+}
+
+.menu ul li {
+	float: none;
+}
+
+.menu ul a {
+	white-space: nowrap;
+}
+
+/* Displays the dropdown on hover and moves back into position */
+.menu li:hover ul {
+	background: rgba(255,255,255,0.7);
+	border-radius: 0 0 6px 6px;
+	box-shadow: inset 0px 2px 4px rgba(0,0,0,0.4);
+	left: 5px;
+	opacity: 1;
+}
+
+/* Persistant Hover State */
+.menu li:hover a {
+	background: -webkit-gradient(linear, center top, center bottom, from(#ccc), to(#ededed));
+	background-image: linear-gradient(#ccc, #ededed);
+	border-radius: 12px;
+	box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+	color: #222;
+}
+
+.menu li:hover ul a {
+	background: none;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.menu li:hover ul li a:hover {
+	background: -webkit-gradient(linear, center top, center bottom, from(#eee), to(#fff));
+	background-image: linear-gradient(#ededed, #fff);
+	border-radius: 12px;
+	box-shadow: inset 0px 0px 4px 2px rgba(0,0,0,0.3);
+}
+.text{
+	font-family: calibri;
+    font-size: 16px;
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: justify;
+}
+.heading{
+	font-family: calibri;
+    font-size: 20px;
+}
+.cmmFont{
+	font-family: calibri;
+    font-size: 16px;
+}
+.mar{
+	margin:2px;
+}
+.listStyle{
+	list-style-type: disc;
+}
+.srvcsTextWidth{
+	width:850px;
+}
+.cnctMar{
+	margin:0px;
+}
